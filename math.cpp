@@ -13,11 +13,12 @@ int multiply(int a , int b){
 
 int divide(int a, int b){
     if(b==0){
-        return -1;
+        return 0;
     } else return a/b;
 }
 
 int main(){
     cout << "2+3=" << add(2,3) << endl;
     cout << "2*3=" << multiply(2,3) << endl;
+    cout << "6/2=" << divide(6,2) << endl;
 }
