@@ -13,8 +13,12 @@ int multiply(int a , int b){
 
 int divide(int a, int b){
     if(b==0){
+<<<<<<< HEAD
         cout << "error: divide by zero" << endl;
         return 0;
+=======
+        return -1;
+>>>>>>> feature/divide
     } else return a/b;
 }
 
