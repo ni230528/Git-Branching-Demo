@@ -18,8 +18,13 @@ int divide(int a, int b){
     } else return a/b;
 }
 
+int subtract(int a ,int b){
+    return a-b;
+}
+
 int main(){
     cout << "2+3=" << add(2,3) << endl;
     cout << "2*3=" << multiply(2,3) << endl;
     cout << "6/2=" << divide(6,2) << endl;
+    cout << "5-3=" << subtract(5,3) << endl;
 }
