@@ -13,6 +13,7 @@ int multiply(int a , int b){
 
 int divide(int a, int b){
     if(b==0){
+        cout << "error: divide by zero" << endl;
         return 0;
     } else return a/b;
 }
