@@ -12,8 +12,10 @@ int multiply(int a , int b){
 }
 
 int divide(int a, int b){
-    if(b==0) return -1;
-    else return a/b;
+    if(b==0){
+        cout << "error: divide by zero" << endl;
+        return -1;
+    } else return a/b;
 }
 
 int main(){
